@@ -53,3 +53,4 @@ Assets/StreamingAssets/crashlytics-build.properties
 Assets/Private/
 Assets/Private.meta
 
+*.meta

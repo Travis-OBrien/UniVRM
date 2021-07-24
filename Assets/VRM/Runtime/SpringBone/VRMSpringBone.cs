@@ -16,12 +16,12 @@ namespace VRM
         [SerializeField]
         public string m_comment;
 
-        [SerializeField] [Header("Gizmo")] private bool m_drawGizmo = default;
+        [SerializeField] [Header("Gizmo")] public bool m_drawGizmo = default;
 
-        [SerializeField] private Color m_gizmoColor = Color.yellow;
+        [SerializeField] public Color m_gizmoColor = Color.yellow;
 
         [SerializeField]
-        [Range(0, 4)]
+        [Range(0, 10)]
         [Header("Settings")]
         public float m_stiffnessForce = 1.0f;
 
